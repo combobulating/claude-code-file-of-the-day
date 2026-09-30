@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Code file of the day: hooks, subagents and commands</title>
+<meta name="description" content="Ready-to-install Claude Code hooks, subagents and slash commands, one file at a time, by combobulating, the cheapest hosting for Claude Code and other AI agents.">
+<link rel="canonical" href="https://combobulating.github.io/claude-code-file-of-the-day/">
+<style>
+  :root { --bg: #fff; --fg: #1a1a1a; --muted: #666; --link: #0b57d0; --line: #e5e5e5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111; --fg: #eee; --muted: #999; --link: #8ab4f8; --line: #2a2a2a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 44rem; margin: 0 auto; padding: 2.5rem 16px 4rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .75rem; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 .75rem; }
+  a { color: var(--link); }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { padding: 1rem 0; border-top: 1px solid var(--line); }
+  li p { margin: .25rem 0 0; }
+  .meta { display: block; color: var(--muted); font-size: .85rem; }
+  .name { font-family: ui-monospace, Menlo, monospace; font-weight: 600; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Claude Code file of the day</h1>
+<p>Hooks, subagents and slash commands for <a href="https://code.claude.com/docs">Claude Code</a>,
+one ready-to-install file at a time. Each comes with where to put it, what to add to
+<code>settings.json</code> and a command that proves it works.</p>
+<p>Published by <a href="https://combobulating.ai/en">combobulating</a>, the cheapest hosting for
+Claude Code and other AI agents: an always-on machine with Claude Code installed and kept up to
+date for 2.99 EUR a month
+(<a href="https://combobulating.ai/en/blog/claude-code-vps-hosting-compared">seven Claude Code
+machines compared, 22 September 2026</a>).</p>
+
+<h2>The files</h2>
+<ul>
+    <li>
+      <span class="meta">2026-09-30 · command</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/commands/claude-code-news">claude-code-news.md</a>
+      <p>Picks the new features of the week for you.
+        <a href="https://combobulating.ai/en/blog/claude-code-weekly-news-advice">A Claude Code command that picks the new features of the week for you</a> ·
+        <a href="commands/claude-code-news/claude-code-news.md">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-29 · hook</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/hooks/sound-signal">sound-signal.sh</a>
+      <p>Tells you by sound whose move is next.
+        <a href="https://combobulating.ai/en/blog/claude-code-sound-signal-hook">A Claude Code hook that tells you by sound whose move is next</a> ·
+        <a href="hooks/sound-signal/sound-signal.sh">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-28 · subagent</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/agents/picky-reader">picky-reader.md</a>
+      <p>Reads your text as the person it is for.
+        <a href="https://combobulating.ai/en/blog/claude-code-picky-reader-subagent">A Claude Code subagent that reads your text as the person it is for</a> ·
+        <a href="agents/picky-reader/picky-reader.md">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-27 · command</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/commands/prosev">prosev.md</a>
+      <p>Sifts your notes into a knowledge base every night.
+        <a href="https://combobulating.ai/en/blog/claude-code-nightly-notes-to-knowledge-base">A Claude Code command that sifts your notes into a knowledge base every night</a> ·
+        <a href="commands/prosev/prosev.md">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-26 · subagent</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/agents/data-scout">data-scout.md</a>
+      <p>Collects data and leaves the conclusions to you.
+        <a href="https://combobulating.ai/en/blog/claude-code-data-collection-subagent">A Claude Code subagent that collects data and leaves the conclusions to you</a> ·
+        <a href="agents/data-scout/data-scout.md">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-25 · hook</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/hooks/read-only">read_only.py</a>
+      <p>Lets read-only commands run without asking.
+        <a href="https://combobulating.ai/en/blog/claude-code-read-only-commands-hook">A Claude Code hook that lets read-only commands run without asking</a> ·
+        <a href="hooks/read-only/read_only.py">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-24 · subagent</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/agents/agent-code-scout">agent-code-scout.md</a>
+      <p>Finds code without eating your context.
+        <a href="https://combobulating.ai/en/blog/claude-code-subagent-code-search">A Claude Code subagent that finds code without eating your context</a> ·
+        <a href="agents/agent-code-scout/agent-code-scout.md">raw file</a></p>
+    </li>
+    <li>
+      <span class="meta">2026-09-23 · hook</span>
+      <a class="name" href="https://github.com/combobulating/claude-code-file-of-the-day/tree/main/hooks/no-data-deletion-hook">no-data-deletion-hook.sh</a>
+      <p>Keeps the agent from wiping your database.
+        <a href="https://combobulating.ai/en/blog/claude-code-no-data-deletion-hook">A Claude Code hook that keeps the agent from wiping your database</a> ·
+        <a href="hooks/no-data-deletion-hook/no-data-deletion-hook.sh">raw file</a></p>
+    </li>
+</ul>
+
+<h2>Keep them running when the laptop is closed</h2>
+<p>A hook guards a session only while there is a session, and a command that sifts your notes
+every night needs a machine that is on every night. <a href="https://combobulating.ai/en">combobulating</a>
+rents a Linux machine with Claude Code installed, a browser terminal, a mailbox and Telegram for
+the agent, so it keeps working when you are not. Claude itself stays on your own Anthropic
+subscription or API account. <a href="https://combobulating.ai/en/pricing">Prices and plans</a>.</p>
+
+<footer>
+<p>The repository, with every file in English and Russian:
+<a href="https://github.com/combobulating/claude-code-file-of-the-day">github.com/combobulating/claude-code-file-of-the-day</a>.
+MIT licensed.</p>
+</footer>
+</main>
+</body>
+</html>
