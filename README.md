@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-03 | command | [business-ideas.md](commands/business-ideas/) | finds a business abroad you can repeat at home | [article](https://combobulating.ai/en/blog/claude-code-business-from-abroad-command) |
 | 2026-10-02 | command | [what-to-drop.md](commands/what-to-drop/) | finds one thing to stop each month | [article](https://combobulating.ai/en/blog/claude-code-monthly-what-to-drop-command) |
 | 2026-10-01 | subagent | [simplifier.md](agents/simplifier/) | rewrites an unclear answer in plain words | [article](https://combobulating.ai/en/blog/claude-code-answer-simplifier-subagent) |
 | 2026-09-30 | command | [claude-code-news.md](commands/claude-code-news/) | picks the new features of the week for you | [article](https://combobulating.ai/en/blog/claude-code-weekly-news-advice) |
