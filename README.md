@@ -1,6 +1,6 @@
 # Claude Code file of the day
 
-Hooks, subagents and slash commands for [Claude Code](https://code.claude.com/docs),
+Hooks, subagents, slash commands and `CLAUDE.md` rules for [Claude Code](https://code.claude.com/docs),
 one ready-to-install file at a time. Each folder holds the file, where to put it, what to add to
 `settings.json`, and a command that proves it works.
 
@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-04 | rule | [premortem.md](rules/premortem/) | finds where the work will break before you hand it over | [article](https://combobulating.ai/en/blog/claude-code-premortem-rule) |
 | 2026-10-03 | command | [business-ideas.md](commands/business-ideas/) | finds a business abroad you can repeat at home | [article](https://combobulating.ai/en/blog/claude-code-business-from-abroad-command) |
 | 2026-10-02 | command | [what-to-drop.md](commands/what-to-drop/) | finds one thing to stop each month | [article](https://combobulating.ai/en/blog/claude-code-monthly-what-to-drop-command) |
 | 2026-10-01 | subagent | [simplifier.md](agents/simplifier/) | rewrites an unclear answer in plain words | [article](https://combobulating.ai/en/blog/claude-code-answer-simplifier-subagent) |
@@ -24,8 +25,9 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 | 2026-09-24 | subagent | [agent-code-scout.md](agents/agent-code-scout/) | finds code without eating your context | [article](https://combobulating.ai/en/blog/claude-code-subagent-code-search) |
 | 2026-09-23 | hook | [no-data-deletion-hook.sh](hooks/no-data-deletion-hook/) | keeps the agent from wiping your database | [article](https://combobulating.ai/en/blog/claude-code-no-data-deletion-hook) |
 
-Every file is also in Russian, in the `ru/` folder beside it. Все файлы есть и на русском: папка
-`ru/` рядом с английской версией.
+Every file is also in Russian, in the `ru/` folder beside it, and since 4 October 2026 in Serbian
+(`sr/`) and Portuguese (`pt/`) too. Все файлы есть и на русском: папка `ru/` рядом с английской
+версией.
 
 ## Where they go
 
@@ -34,6 +36,7 @@ Every file is also in Russian, in the `ru/` folder beside it. Все файлы 
 | hook | `~/.claude/hooks/` | a block in `~/.claude/settings.json`, shown in the file's README |
 | subagent | `~/.claude/agents/` | nothing: Claude Code picks it up in the next session |
 | command | `~/.claude/commands/` | nothing: type `/` and its name |
+| rule | `~/.claude/CLAUDE.md` (append it) | restarting Claude Code: the file is read at startup |
 
 Put a file in the project's own `.claude/` instead of `~/.claude/` to have it in one project only.
 
