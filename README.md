@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-05 | rule | [urgency.md](rules/urgency/) | marks every task and problem by urgency | [article](https://combobulating.ai/en/blog/claude-code-urgency-marks-rule) |
 | 2026-10-04 | rule | [premortem.md](rules/premortem/) | finds where the work will break before you hand it over | [article](https://combobulating.ai/en/blog/claude-code-premortem-rule) |
 | 2026-10-03 | command | [business-ideas.md](commands/business-ideas/) | finds a business abroad you can repeat at home | [article](https://combobulating.ai/en/blog/claude-code-business-from-abroad-command) |
 | 2026-10-02 | command | [what-to-drop.md](commands/what-to-drop/) | finds one thing to stop each month | [article](https://combobulating.ai/en/blog/claude-code-monthly-what-to-drop-command) |
