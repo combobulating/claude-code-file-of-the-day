@@ -1,6 +1,6 @@
 # Claude Code file of the day
 
-Hooks, subagents, slash commands and `CLAUDE.md` rules for [Claude Code](https://code.claude.com/docs),
+Hooks, subagents, slash commands, `CLAUDE.md` rules and scripts for [Claude Code](https://code.claude.com/docs),
 one ready-to-install file at a time. Each folder holds the file, where to put it, what to add to
 `settings.json`, and a command that proves it works.
 
@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-09 | script | [find_secrets.py](scripts/find-secrets/) | finds passwords left in plain text in your files | [article](https://combobulating.ai/en/blog/claude-code-plain-text-passwords-script) |
 | 2026-10-08 | rule | [short-commands.md](rules/short-commands/) | turns three letters into a whole request | [article](https://combobulating.ai/en/blog/claude-code-short-commands-rule) |
 | 2026-10-07 | rule | [whose-turn.md](rules/whose-turn/) | ends each answer with a mark showing whose turn it is | [article](https://combobulating.ai/en/blog/claude-code-whose-turn-mark-rule) |
 | 2026-10-06 | rule | [task-log.md](rules/task-log/) | keeps a task log so a new conversation continues where you stopped | [article](https://combobulating.ai/en/blog/claude-code-task-log-rule) |
@@ -41,6 +42,7 @@ Every file is also in Russian, in the `ru/` folder beside it, and since 4 Octobe
 | subagent | `~/.claude/agents/` | nothing: Claude Code picks it up in the next session |
 | command | `~/.claude/commands/` | nothing: type `/` and its name |
 | rule | `~/.claude/CLAUDE.md` (append it) | restarting Claude Code: the file is read at startup |
+| script | `~/.claude/scripts/` | nothing: ask Claude to run it, the README has the request |
 
 Put a file in the project's own `.claude/` instead of `~/.claude/` to have it in one project only.
 
