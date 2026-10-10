@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-10 | rule | [questions-with-recommendation.md](rules/questions-with-recommendation/) | makes every question come with a ready decision | [article](https://combobulating.ai/en/blog/claude-code-questions-with-recommendation-rule) |
 | 2026-10-09 | script | [find_secrets.py](scripts/find-secrets/) | finds passwords left in plain text in your files | [article](https://combobulating.ai/en/blog/claude-code-plain-text-passwords-script) |
 | 2026-10-08 | rule | [short-commands.md](rules/short-commands/) | turns three letters into a whole request | [article](https://combobulating.ai/en/blog/claude-code-short-commands-rule) |
 | 2026-10-07 | rule | [whose-turn.md](rules/whose-turn/) | ends each answer with a mark showing whose turn it is | [article](https://combobulating.ai/en/blog/claude-code-whose-turn-mark-rule) |
