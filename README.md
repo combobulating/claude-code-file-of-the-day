@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-13 | rule | [worst-case-preview.md](rules/worst-case-preview/) | shows where a page breaks before your customers see it | [article](https://combobulating.ai/en/blog/claude-code-worst-case-preview-rule) |
 | 2026-10-12 | rule | [work-without-me.md](rules/work-without-me/) | keeps work moving while you are away | [article](https://combobulating.ai/en/blog/claude-code-work-without-me-rule) |
 | 2026-10-11 | command | [idea.md](commands/idea/) | brings one growth idea for your business at a time | [article](https://combobulating.ai/en/blog/claude-code-one-growth-idea-command) |
 | 2026-10-10 | rule | [questions-with-recommendation.md](rules/questions-with-recommendation/) | makes every question come with a ready decision | [article](https://combobulating.ai/en/blog/claude-code-questions-with-recommendation-rule) |
