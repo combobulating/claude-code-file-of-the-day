@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-15 | hook | [notify-done.sh](hooks/notify-done/) | shows the start of every reply in a notification | [article](https://combobulating.ai/en/blog/claude-code-reply-notification-hook) |
 | 2026-10-14 | rule | [bid-or-pass.md](rules/bid-or-pass/) | tells you in a minute whether to take an order | [article](https://combobulating.ai/en/blog/claude-code-bid-or-pass-rule) |
 | 2026-10-13 | rule | [worst-case-preview.md](rules/worst-case-preview/) | shows where a page breaks before your customers see it | [article](https://combobulating.ai/en/blog/claude-code-worst-case-preview-rule) |
 | 2026-10-12 | rule | [work-without-me.md](rules/work-without-me/) | keeps work moving while you are away | [article](https://combobulating.ai/en/blog/claude-code-work-without-me-rule) |
