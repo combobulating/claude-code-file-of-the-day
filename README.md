@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-17 | rule | [real-findings.md](rules/real-findings/) | keeps only real findings in a review | [article](https://combobulating.ai/en/blog/claude-code-real-findings-rule) |
 | 2026-10-16 | command | [competitors.md](commands/competitors/) | brings three to five signals about your competitors every week | [article](https://combobulating.ai/en/blog/claude-code-competitor-signals-command) |
 | 2026-10-15 | hook | [notify-done.sh](hooks/notify-done/) | shows the start of every reply in a notification | [article](https://combobulating.ai/en/blog/claude-code-reply-notification-hook) |
 | 2026-10-14 | rule | [bid-or-pass.md](rules/bid-or-pass/) | tells you in a minute whether to take an order | [article](https://combobulating.ai/en/blog/claude-code-bid-or-pass-rule) |
