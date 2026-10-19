@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-19 | rule | [copy-before-change.md](rules/copy-before-change/) | saves a copy before every edit and deletes only on your word | [article](https://combobulating.ai/en/blog/claude-code-copy-before-change-rule) |
 | 2026-10-18 | rule | [show-the-result.md](rules/show-the-result/) | shows you finished work instead of a path to a file | [article](https://combobulating.ai/en/blog/claude-code-show-finished-work-rule) |
 | 2026-10-17 | rule | [real-findings.md](rules/real-findings/) | keeps only real findings in a review | [article](https://combobulating.ai/en/blog/claude-code-real-findings-rule) |
 | 2026-10-16 | command | [competitors.md](commands/competitors/) | brings three to five signals about your competitors every week | [article](https://combobulating.ai/en/blog/claude-code-competitor-signals-command) |
