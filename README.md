@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-21 | script | [claude-spend-by-project.py](scripts/claude-spend-by-project/) | shows which work eats your money and limit | [article](https://combobulating.ai/en/blog/claude-code-spend-by-project-script) |
 | 2026-10-21 | rule | [offer-a-schedule.md](rules/offer-a-schedule/) | offers to put the work you keep giving it on a schedule | [article](https://combobulating.ai/en/blog/claude-code-repeat-work-on-schedule-rule) |
 | 2026-10-19 | rule | [copy-before-change.md](rules/copy-before-change/) | saves a copy before every edit and deletes only on your word | [article](https://combobulating.ai/en/blog/claude-code-copy-before-change-rule) |
 | 2026-10-18 | rule | [show-the-result.md](rules/show-the-result/) | shows you finished work instead of a path to a file | [article](https://combobulating.ai/en/blog/claude-code-show-finished-work-rule) |
