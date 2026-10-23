@@ -62,10 +62,12 @@ Put a file in the project's own `.claude/` instead of `~/.claude/` to have it in
 ## Keep them running when the laptop is closed
 
 A hook guards a session only while there is a session, and a command that sifts your notes every
-night needs a machine that is on every night. [combobulating](https://combobulating.ai/en) rents a
-Linux machine with Claude Code installed, a browser terminal, a mailbox and Telegram for the
-agent, so it keeps working when you are not. The Mini is 2.99 EUR a month; Claude itself stays
-on your own Anthropic subscription or API account. [Prices and plans](https://combobulating.ai/en/pricing).
+night needs a machine that is on every night. combobulating rents [a Linux machine with Claude
+Code installed](https://combobulating.ai/en/servers), [a terminal for it in the
+browser](https://combobulating.ai/en/servers/terminal), a mailbox and [Telegram for the
+agent](https://combobulating.ai/en/servers/telegram), so it keeps working when you are not. The Mini is
+2.99 EUR a month; Claude itself stays on your own Anthropic subscription or API account. [Prices and
+plans](https://combobulating.ai/en/servers/pricing).
 
 A new file most days: star or watch the repo to get the next one.
 
