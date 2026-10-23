@@ -12,6 +12,7 @@ date for 2.99 EUR a month ([seven Claude Code machines compared, 22 September
 
 | Date | Kind | File | What it does | Write-up |
 |---|---|---|---|---|
+| 2026-10-23 | rule | [verified-done.md](rules/verified-done/) | checks the result before it says done | [article](https://combobulating.ai/en/blog/claude-code-done-means-checked-rule) |
 | 2026-10-22 | rule | [note-for-later.md](rules/note-for-later/) | writes down an idea mid-work instead of starting on it | [article](https://combobulating.ai/en/blog/claude-code-note-for-later-rule) |
 | 2026-10-21 | script | [claude-spend-by-project.py](scripts/claude-spend-by-project/) | shows which work eats your money and limit | [article](https://combobulating.ai/en/blog/claude-code-spend-by-project-script) |
 | 2026-10-21 | rule | [offer-a-schedule.md](rules/offer-a-schedule/) | offers to put the work you keep giving it on a schedule | [article](https://combobulating.ai/en/blog/claude-code-repeat-work-on-schedule-rule) |
